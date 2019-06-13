@@ -1,0 +1,190 @@
+body, html {
+	margin: 0;
+}
+
+header {
+	height:  80px;
+	background-color: #3B5998;
+	border-bottom: 1px solid #133783;
+	padding-top: 2px;
+	
+}
+
+#logo {
+	float: left;
+	margin: 0;
+	font-size: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    outline: none;
+    margin-top: 25px;
+}
+
+/*#logo, .comp {
+	margin-left: 180px;
+}*/
+
+.white {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.resiz {
+
+	font-size: 12px;
+}
+
+
+.inser {
+	float: right;
+	/*margin-top: 10px;
+	margin-right: 130px;*/
+	margin: 0;
+	border-collapse: separate;
+    border-spacing: 15px 0px;
+
+}
+
+
+.btn {
+	background-color:  #426dbd;
+	color: white;
+	height: 21px;
+}
+
+tr td input {
+	border: 1px solid #1D2A5B;
+	height: 18px;
+}
+tr td {
+	left: 80px;
+}
+
+#passw {
+	border-color: #29487D;
+
+
+}
+body {
+background-color: #E9EBEE;	
+}
+
+#main {
+	height:  500px;
+	width: 100%;
+	margin: 0;
+	background-color:  yellow;
+	
+}
+
+
+
+.comp1 {
+	
+	background-color: red;
+	height: 350px;
+	width: 40%;
+	float: left;
+	
+
+
+
+}
+.comp2 {
+	
+	
+	background-color: blue;
+	height: 350px;
+	width: 40%;
+	float: left;
+	
+	
+	
+}
+
+
+.comp h2{
+	margin: 0;
+	color: #333333;
+	font-family:"Freight Sans Bold", Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	
+}
+
+.comp h3 {
+	font-size: 19px;
+	color: #333333;
+	font-family:"Freight Sans Bold", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	margin: 0;
+
+
+}
+
+/*.card-wrapper {
+	display: flex;
+}*/
+
+
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 160px;
+  background-color: white;
+  text-align: center; 
+  height: 200px;
+  
+
+}
+
+.card2 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 160px;
+  background-color: white;
+  text-align: center; 
+  height: 200px;
+  margin-left: 120px;
+  
+  
+
+}
+
+.clearfix::after {
+	content: "";
+  clear: both;
+  display: table;
+}
+.float {
+	float: left;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  height: 160px;
+
+  
+  
+  
+
+}
+
+.container {
+	
+  
+  background-color: white;
+  height: 40px;
+  margin-top: 10px;
+   
+}
+
+.icon-wrapper {
+background-color: #E9EBEE;
+}

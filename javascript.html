@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+	<div id="display"></div>
+<button onclick="alertMe('2')">Click</button>
+<button onclick="alertMe('0')">Click</button>
+<button onclick="alertMe('/')">/</button>
+
+
+</body>
+</html>
+<script type="text/javascript">
+function alertMe(s){
+	
+	display.innerHTML += s;
+	var b = display.innerHTML;
+	console.log(b);
+	execute(b);
+		// display.innerHTML= display.innerHTML+ s;
+	
+}
+
+</script>
